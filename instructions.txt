@@ -1,0 +1,5 @@
+## Running Flask APP
+flask --debug run
+
+## Running Streamlit
+streamlit run streamlit_app.py 
