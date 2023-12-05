@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="#">
+    <title>MEME_FLASK</title>
+    <!-- Bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div class='d-flex justify-content-center align-items-center flex-column'>
+        <div class="row">
+            <h1>MEME GEN</h1>
+        </div>
+        <div class="row justify-content-center">
+            <img src="{{ url_for('static', filename='logo.png')}}" alt="" style="width: 50%; height: 50%;">
+        </div>
+        </div>
+        <div class="d-flex justify-content-center my-4">
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <ul class='flashes'>
+                {% for message in messages %}
+                  <li class="text-danger">{{ message }}</li>
+                {% endfor %}
+                </ul>
+              {% endif %}
+            {% endwith %}
+        </div>
+
+    <div class="d-flex justify-content-center">
+        <form action='/upload', method='post' enctype='multipart/form-data'>
+            <div class='mb-3'>
+                <input name='file' type='file' class='form-control' id='imageUpload'>
+                <div class="d-flex align-items-center my-4">
+                    <label for="caption" class="me-4"> Caption: </label>
+                    <input name='caption' type='text' class='form-control my-2' id='caption'>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="modelSelect" class="form-label">Select Model</label>
+                <select class="form-control" id="modelSelect" name="model">
+                    {% for model in models %}
+                        <option value="{{ model }}">{{ model }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="text-center">
+                <input type='submit' class='btn btn-primary'></input>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
