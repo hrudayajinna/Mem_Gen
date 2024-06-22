@@ -79,6 +79,7 @@ streamlit run streamlit_app.py
 
 - [Hrudaya Jinna](https://github.com/hrudayajinna)
 - [Aksheetha Muthunooru](https://github.com/aksheetha)
+- [Anurag Sharma](https://github.com/asharma3196)
 - [Yukta Medha](https://github.com/yuktamedha)
 
 
