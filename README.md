@@ -6,23 +6,25 @@ Meme Magic is an innovative application that creates random memes from a given i
 ## Why did we build this project?
 The primary motivation behind the development of MemGen is to spread laughter and joy by leveraging the creative potential of memes. Memes are a unique cultural phenomenon that combine humor with visual and textual elements, making them highly engaging and shareable.
 
-### Benefits:
+## Benefits:
 1. **Connect People**: Memes have the power to connect people by breaking the ice and fostering a sense of camaraderie and humor.
 2. **Social Connections**: By using memes, users can bond over shared jokes and cultural references, creating deeper social connections.
 
-### Targeted Audience:
+## Targeted Audience:
 1. **Professionals**: MemGen can be a valuable tool for professionals looking to create engaging content for campaigns.
 2. **Educators**: Memes can be used to make educational content more relatable and memorable.
 3. **General Users**: MemGen appeals to anyone looking to create and share memes for fun or to build an online presence.
 4. **Content Creators**: Influencers and content creators can use MemGen to produce unique and entertaining content for their audiences.
 
-## What problem(s) does it solve?
+## What problems does it solve?
 1. **Dataset Issues**: Existing meme datasets were either incomplete, imbalanced, or not publicly available. MemGen addresses this by collecting and releasing a large-scale, balanced dataset of 900,000 memes with 300 different templates.
 2. **Model Accuracy**: By incorporating advanced models and techniques such as LSTM, CNN, and Transformers with spatial features, MemGen enhances the accuracy and quality of generated meme captions. The project demonstrated that LSTM-based models perform better in generating coherent captions compared to transformer-based models.
 3. **Data Cleaning**: The project involved rigorous data preprocessing steps to remove noise, non-ASCII symbols, non-English text, and high-similarity captions, resulting in a cleaner and more usable dataset.
 
 ## Features
-![Screenshots and Gifs](Images)
+![Generated Image of Meme](images/Generated%20meme.jpeg)
+![Original Image](images/Original%20Image.jpeg)
+
 
 ## How to use
 1. Install the required packages:
@@ -38,7 +40,7 @@ flask --debug run
 streamlit run streamlit_app.py
 ```
 
-### Technologies
+## Technologies
 
 - Python
 - TensorFlow
@@ -54,8 +56,9 @@ streamlit run streamlit_app.py
 
 ## Collaborators
 
-- Hrudaya Jinna
-- Aksheetha Muthunooru
-- Yukta Medha
+- [Hrudaya Jinna](https://github.com/hrudayajinna)
+- [Aksheetha Muthunooru](https://github.com/aksheethamuthunooru)
+- [Yukta Medha](https://github.com/yuktamedha)
+
 
 
