@@ -1,7 +1,7 @@
 # Project Title: Meme Magic - A Random Meme Generator
 
 ## Description
-MemGen is an innovative application that creates random memes from a given image. We utilized front-end technologies like HTML, CSS, JavaScript, and Bootstrap to create an intuitive and responsive user interface. The back-end models, written in Python, were connected using Flask for efficient processing and data handling. Finally, the application was deployed on Streamlit for a seamless user experience.
+Meme Magic is an innovative application that creates random memes from a given image. We utilized front-end technologies like HTML, CSS, JavaScript, and Bootstrap to create an intuitive and responsive user interface. The back-end models, written in Python, were connected using Flask for efficient processing and data handling. Finally, the application was deployed on Streamlit for a seamless user experience.
 
 ## Why did we build this project?
 The primary motivation behind the development of MemGen is to spread laughter and joy by leveraging the creative potential of memes. Memes are a unique cultural phenomenon that combine humor with visual and textual elements, making them highly engaging and shareable.
@@ -26,16 +26,19 @@ The primary motivation behind the development of MemGen is to spread laughter an
 
 ## How to use
 1. Install the required packages:
-```bash
+```sh
 pip install -r requirements.txt
+```
 2. Running Flask APP:
-```bash
+```sh
 flask --debug run
+```
 3. Running Streamlit:
-```bash
+```sh
 streamlit run streamlit_app.py
+```
 
-## Technologies
+### Technologies
 
 - Python
 - TensorFlow
