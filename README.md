@@ -23,16 +23,13 @@ The primary motivation behind the development of MemGen is to spread laughter an
 
 ## Features
 ![Architecture of our System](images/architecture.png)
-
 Here is the architecture diagram of our system, illustrating the different components and their interactions.
 
+Difference Between Generated Meme and Original Image
 ![Original Image](images/Original%20Image.jpeg)
-
-# Difference Between Generated Meme and Original Image
+![Generated Image of Meme](images/Generated%20meme.jpeg)
 
 The original image serves as the basis for generating memes within our system. By comparing the two images, we can illustrate the transformation and enhancement process that occurs, showcasing the value added by our meme generation capabilities.
-
-![Generated Image of Meme](images/Generated%20meme.jpeg)
 
 ## How to use
 1. Install the required packages:
