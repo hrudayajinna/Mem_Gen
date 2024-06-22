@@ -42,7 +42,7 @@ Here is the architecture diagram of our system, illustrating the different compo
     </div>
 </div>
 
-# Difference Between Generated Meme and Original Image
+Difference Between Generated Meme and Original Image
 
 You can upload any image from your system, select a model, and provide input text to generate a random meme and you will have an option to download an image.
 
