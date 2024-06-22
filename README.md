@@ -78,7 +78,7 @@ streamlit run streamlit_app.py
 ## Collaborators
 
 - [Hrudaya Jinna](https://github.com/hrudayajinna)
-- [Aksheetha Muthunooru](https://github.com/aksheethamuthunooru)
+- [Aksheetha Muthunooru](https://github.com/aksheetha)
 - [Yukta Medha](https://github.com/yuktamedha)
 
 
