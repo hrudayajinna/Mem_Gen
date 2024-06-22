@@ -35,7 +35,7 @@ Here is the architecture diagram of our system, illustrating the different compo
     </div>
     <div style="flex:1; margin-left:5px;">
         <p align="center">
-            <img src="images/Generated%20meme.jpeg" alt="Generated Image of Meme" width="400">
+            <img src="images/Generated%20meme.jpeg" alt="Generated Meme" width="400">
             <br>
             <strong>Generated Image of Meme</strong>
         </p>
