@@ -22,9 +22,17 @@ The primary motivation behind the development of MemGen is to spread laughter an
 3. **Data Cleaning**: The project involved rigorous data preprocessing steps to remove noise, non-ASCII symbols, non-English text, and high-similarity captions, resulting in a cleaner and more usable dataset.
 
 ## Features
-![Generated Image of Meme](images/Generated%20meme.jpeg)
+![Architecture of our System](images/architecture.png)
+
+Here is the architecture diagram of our system, illustrating the different components and their interactions.
+
 ![Original Image](images/Original%20Image.jpeg)
 
+# Difference Between Generated Meme and Original Image
+
+The original image serves as the basis for generating memes within our system. By comparing the two images, we can illustrate the transformation and enhancement process that occurs, showcasing the value added by our meme generation capabilities.
+
+![Generated Image of Meme](images/Generated%20meme.jpeg)
 
 ## How to use
 1. Install the required packages:
