@@ -48,15 +48,19 @@ You can upload any image from your system, select a model, and provide input tex
 
 
 ## How to use
-1. Install the required packages:
+1. Fork the repository
+```sh
+https://github.com/hrudayajinna/Meme_Magic.git
+   
+3. Install the required packages:
 ```sh
 pip install -r requirements.txt
 ```
-2. Running Flask APP:
+3. Running Flask APP:
 ```sh
 flask --debug run
 ```
-3. Running Streamlit:
+4. Running Streamlit:
 ```sh
 streamlit run streamlit_app.py
 ```
