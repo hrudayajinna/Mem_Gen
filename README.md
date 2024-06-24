@@ -50,9 +50,10 @@ You can upload any image from your system, select a model, and provide input tex
 ## How to use
 1. Fork the repository
 ```sh
-https://github.com/hrudayajinna/Meme_Magic.git
+git clone https://github.com/hrudayajinna/Meme_Magic.git
+```
    
-3. Install the required packages:
+2. Install the required packages:
 ```sh
 pip install -r requirements.txt
 ```
